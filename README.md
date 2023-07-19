@@ -15,6 +15,7 @@ A: louis_v004 contient les tables `ada_002`, `chunk`, `crawl`, `link`, `query` e
 Q: Quelle distribution prennent les valeurs de longueur du contenu?
 
 Q: Expliquer le calcul en fonction de la distribution spécifique des valeurs de longueurs de html_content script
+
 Q: Expliquer et discuter de la performance de votre fonction recherche
 
 A: Je crée une fonction qui se nomme `recherche` et qui prend en paramètre un `mot_cle` d'une chaine de caractères de 255 de longueurs.
@@ -23,7 +24,10 @@ Elle retourne une requête et afficher toutes les colonnes de la table `document
 
 ### Performance
 Avec l'essai :
+
 `select recherche('Nomenclature');`
+
 Voici le résultat:
+
 ![Recherche_performance](https://github.com/TheRealiPaul/stage_data_science/blob/main/stage_peformance_recherche.png?raw=true)
 
