@@ -27,7 +27,7 @@ Q: Expliquer et discuter de la performance de votre fonction recherche
 
 A: Je crée une fonction qui se nomme `"recherche"` et qui prend en paramètre un `"mot_cle"` d'une chaîne de caractères de 255 caractères de longueur. Elle retourne un ensemble de documents. La fonction exécute une requête et affiche toutes les colonnes de la table `"documents"` en prenant en compte la condition suivante : si le contenu contient le `"mot_cle"` dans n'importe quelle position. Ensuite, elle trie les résultats par scores en ordre descendant et limite le nombre de résultats avec la clause "LIMIT 10", ce qui signifie qu'on limite à 10 résultats.
 
-Concernant la performance de ma fonction recherche, il y a encore des améliorations à faire. En effet, je suis convaincu que mon algorithme de recherche peut faire mieux.
+Concernant la performance de ma fonction recherche, il y a encore des améliorations à faire. En effet, je suis convaincu que mon algorithme de recherche peut être optimisé pour obtenir de meilleurs résultats.
 
 Pour savoir la performance d'une requête, il faut qu'on fait le recours à l'aide des outils de PostgreSQL qui permet de mesurer le temps d'exécution et le temps d'exécution du plan sur le serveur.
 
