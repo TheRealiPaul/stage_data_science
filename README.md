@@ -23,8 +23,7 @@ A: Je prends la somme de tous les longueurs `html_content` de la table `crawl` c
 
 Q: Expliquer le calcul en fonction de la distribution spécifique des valeurs de longueurs de html_content script
 
-A: Pour chaque ligne dans la table `crawl`, je calcule la longueur de la colonne `html_content` et je divise par la distribution pour trouver le score.
-
+A: J'ai fait appliqué la formule du score z et je l'ai appliqué en SQL.
 Q: Expliquer et discuter de la performance de votre fonction recherche
 
 A: Je crée une fonction qui se nomme `recherche` et qui prend en paramètre un `mot_cle` d'une chaine de caractères de 255 de longueurs.
