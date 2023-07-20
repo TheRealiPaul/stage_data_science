@@ -9,7 +9,7 @@ A: louis_v004 contient les tables `ada_002`, `chunk`, `crawl`, `link`, `query` e
 - crawl: Sauvegarde l'url de la page web et le contenue de la page em html. Un `crawl` peut contenir plusieurs `chunk`.
 - link: Dans le diagramme, on peut voir qu'il y a une relation entre `crawl` et `link`. La fonction de cette table est de rediriger un lien source vers le lien destination.
 - query: Cette table est indépendante. Sa fonction est de stocker des requêtes SQL.
-- score: Cette table est indépendante. Sa fonction est de stocker les unités de temps.
+- score: Cette table est indépendante.
 
 
 Q: Quelle distribution prennent les valeurs de longueur du contenu?
