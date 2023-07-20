@@ -25,9 +25,7 @@ A: J'ai fait appliqué la formule du score z et je l'ai appliqué en SQL.
 
 Q: Expliquer et discuter de la performance de votre fonction recherche
 
-A: Je crée une fonction qui se nomme `recherche` et qui prend en paramètre un `mot_cle` d'une chaine de caractères de 255 de longueurs.
-Elle retourne un ensemble de documents.
-Elle retourne une requête et affiche toutes les colonnes de la table `documents` et prend une condition si le `content` contient le `mot_cle` dans n'importe quelle position. Ensuite, elle met les scores en ordre descendant et on la limite avec la clause LIMIT10 signifie qu'on limite à 10 résultats.
+A: Je crée une fonction qui se nomme `"recherche"` et qui prend en paramètre un `"mot_cle"` d'une chaîne de caractères de 255 caractères de longueur. Elle retourne un ensemble de documents. La fonction exécute une requête et affiche toutes les colonnes de la table `"documents"` en prenant en compte la condition suivante : si le contenu contient le `"mot_cle"` dans n'importe quelle position. Ensuite, elle trie les résultats par scores en ordre descendant et limite le nombre de résultats avec la clause "LIMIT 10", ce qui signifie qu'on limite à 10 résultats.
 
 Pour savoir la performance d'une requête, il faut qu'on fait le recours à l'aide des outils de PostgreSQL qui permet de mesurer le temps d'exécution et le temps d'exécution du plan sur le serveur.
 
