@@ -1,5 +1,9 @@
 # stage_data_science
 
+Voici un graphique de distribution:
+
+![Distribution_Graph](https://github.com/TheRealiPaul/stage_data_science/blob/main/normal%20distribution.png?raw=true)
+
 Q: Que contiennent les tables dans les schéma louis_v004? Expliquer la structure relationelle et la fonction de chaque table.
 
 A: louis_v004 contient les tables `ada_002`, `chunk`, `crawl`, `link`, `query` et `score`.
