@@ -3,7 +3,7 @@
 Q: Que contiennent les tables dans les schéma louis_v004? Expliquer la structure relationelle et la fonction de chaque table.
 
 A: louis_v004 contient les tables `ada_002`, `chunk`, `crawl`, `link`, `query` et `score`.
-- ada_002: Cette table est l'enfant de la table `token`. Elle a pour but de
+- ada_002: Cette table est l'enfant de la table `token`. Elle a une clé étrangère de `token`.
 - token: Cette table est le parent de la table `ada_002` et est l'enfant de `chunk`. On peut voir que la table `token` a une clé primaire `id` et qu'`ada_002` possède la clé étrangère de `token`.
 - chunk: Cette table contient les sections de la page html tels que son title et le contenu. Elle est l'enfant de crawl. Dans cette table, on y trouve crawl_id pour faire la jointure.
 - crawl: Sauvegarde l'url de la page web et le contenue de la page em html. Un `crawl` peut contenir plusieurs `chunk`.
