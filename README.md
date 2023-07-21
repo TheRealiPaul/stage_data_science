@@ -21,7 +21,7 @@ A: Cela est la répartition des valeurs (longueurs du HTML) d'une population (pa
 
 Q: Expliquer le calcul en fonction de la distribution spécifique des valeurs de longueurs de html_content script
 
-A: J'ai fait appliqué la formule du score z et je l'ai appliqué en SQL.
+A: J'ai appliqué la formule du score z et je l'ai appliqué en SQL.
 
 Q: Expliquer et discuter de la performance de votre fonction recherche
 
